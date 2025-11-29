@@ -1,10 +1,16 @@
-import "./App.css";
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
+import Model from "./components/Model";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello World</h1>
-    </>
+    <main className="bg-black">
+      <NavBar />
+      <Hero />
+      <Highlights />
+      <Model />
+    </main>
   );
 }
 
